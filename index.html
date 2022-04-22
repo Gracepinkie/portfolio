@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head >
+
+<body>
+    
+    <!-- Load an icon library -->
+    <div class="nav-con">
+        <div class="navbar">
+            <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="About.html"><i class="fa fa-fw fa-about"></i> About</a>
+            <a href="Projects.html"><i class="fa fa-fw fa-project"></i>Projects</a>
+            <a href="Resume.html"><i class="fa fa-fw fa-resume"></i> Resume </a>
+            <a href="contact.html"><i class="fa fa-fw fa-user"></i>Contact</a>
+        </div>
+        <div class="hero-image">
+            <div class="hero-text">
+              <h1> Hi!i'm Sinethemba Zulu</h1>
+              <h2>Aspiring <span class="typed"> Web designer</span></h2>
+            </div>
+        </div>
+        <img class="background-image" src="./images/images.laptop.avif" alt="laptop">
+    </div>
+   
+
+<script src="./js/typed.js"></script> 
+<script>
+    var typed = new Typed('.typed', {
+        strings: ['Tech', 'Developer', 'Freelancer'],
+        typeSpeed: 60,
+        backSpeed: 60,
+        loop: true,
+    });
+</script>  
+</body>
+</html>

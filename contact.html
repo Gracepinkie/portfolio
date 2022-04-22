@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="nav-con">
+        <div class="navbar">
+            <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="About.html"><i class="fa fa-fw fa-about"></i> About</a>
+            <a href="Projects.html"><i class="fa fa-fw fa-project"></i>Projects</a>
+            <a href="Resume.html"><i class="fa fa-fw fa-resume"></i> Resume </a>
+            <a href="contact.html"><i class="fa fa-fw fa-user"></i>Contact</a>
+        </div>  
+    </div>
+    <main>
+        <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- map -->
+                    <div class="map-con">
+                        <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                        <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                            <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                                </iframe>
+                            </div>
+                            <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                            <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                            </style>
+                        </div>
+                    </div>
+                    <!-- form fields -->
+                    <div class="form-con">
+                        <form action="/action_page.php">
+                          <label for="fname">First Name:</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label for="lname">Last Name:</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                          <label for="country">Country:</label>
+                          <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                          </select>
+                        
+                          <input type="submit" value="Submit">
+                        </form>
+                    </div>
+
+                    
+                    
+            </div>
+        </div>
+    </section>                
+    </main>
+</body>
+</html>
