@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="nav-con">
@@ -31,34 +32,23 @@
                     <!-- map -->
                     <div class="map-con">
                         <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                        <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-                            <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
-                                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                                </iframe>
-                            </div>
-                            <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
-                            <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
-                            </style>
-                        </div>
+                        <div style="overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="googlemaps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=314+imam+haron+rd,landsdowne&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embedmap-code" href="https://www.embed-map.com" id="grab-mapdata">https://www.embed-map.com</a><style>#googlemaps-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
                     </div>
                     <!-- form fields -->
                     <div class="form-con">
-                        <form action="/action_page.php">
-                          <label for="fname">First Name:</label>
-                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                      
-                          <label for="lname">Last Name:</label>
-                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                      
-                          <label for="country">Country:</label>
-                          <select id="country" name="country">
-                            <option value="australia">Australia</option>
-                            <option value="canada">Canada</option>
-                            <option value="usa">USA</option>
-                          </select>
                         
-                          <input type="submit" value="Submit">
-                        </form>
+                     <form action="https://formspree.io/f/mknyqdnw" method="POST">
+                        <label for="fname"First name></label>
+                        <input type="text" id="fname"name="firstname"placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="iname" name="lastname" placeholder="Your last name..">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email address" placeholder="Email address">
+                        <label for="subject">Subject</label>
+                        <textarea name="subject" id="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
                     </div>
 
                     
