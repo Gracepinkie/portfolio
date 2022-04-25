@@ -226,4 +226,45 @@ clear: both;
   max-height:100%;
 }
 
-
+/* .intro .projects{ 
+  padding-top: 12.5%;
+    margin:0 0 0 0;
+  }
+  */
+  
+  .projectrow {
+    padding-top:2%;
+    padding-bottom:2%;
+  }
+  
+  .col-md-4 {
+    padding-bottom: 5%;
+    padding-left:2%;
+    padding-right:2%;
+  }
+  
+  
+  #btn-fcc {
+    border-radius: 5px;
+    margin-bottom:1%;
+  }
+  
+   
+  #btn-github {
+    background-color:#6e5494;
+    border-radius: 5px;
+    margin-bottom:1%;
+  }
+  
+  #btn-twitter {
+    background-color:#0084b4;
+    border-radius: 5px;
+    margin-bottom:1%;
+  }
+  
+  
+   .btn-social {
+    color: #ffffff;
+  }
+  
+  
